@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/add_Note_Fragment"
+        android:name="com.raj.notehype.fragment.Add_Note_Fragment"
+        android:label="Add_Note_Fragment" >
+        <action
+            android:id="@+id/action_add_Note_Fragment_to_homeFragmnet"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.raj.notehype.fragment.HomeFragment"
+        android:label="HomeFragmnet" >
+        <action
+            android:id="@+id/action_homeFragment_to_add_Note_Fragment"
+            app:destination="@id/add_Note_Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_edit_note_Fragment"
+            app:destination="@id/edit_note_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/edit_note_Fragment"
+        android:name="com.raj.notehype.fragment.Edit_note_Fragment"
+        android:label="Edit_note_Fragment" >
+        <action
+            android:id="@+id/action_edit_note_Fragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="note"
+            app:argType="com.raj.notehype.model.Note"
+            app:nullable="true"/>
+    </fragment>
+</navigation>

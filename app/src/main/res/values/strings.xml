@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NoteByte</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in">Log In</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">Sign in</string>
+    <string name="id">947949544794-fjbvntmg8fpm2nd2splibskir8vujqv9.apps.googleusercontent.com</string>
+    <string name="edit_note">Edit Note.</string>
+</resources>

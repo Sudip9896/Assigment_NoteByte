@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "947949544794",
+    "project_id": "signing-213af",
+    "storage_bucket": "signing-213af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947949544794:android:3d7d43fb9628a2e0a2ff63",
+        "android_client_info": {
+          "package_name": "com.raj.notebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947949544794-fjbvntmg8fpm2nd2splibskir8vujqv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947949544794-fjbvntmg8fpm2nd2splibskir8vujqv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947949544794:android:56e91d4b675a3d70a2ff63",
+        "android_client_info": {
+          "package_name": "com.raj.notehype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947949544794-u2obs8nmbsg80acomal71usj77017pcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raj.notehype",
+            "certificate_hash": "638fa63866df52c93657dbac7886497c303bbff5"
+          }
+        },
+        {
+          "client_id": "947949544794-fjbvntmg8fpm2nd2splibskir8vujqv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMso5fL1p2kb_mKSRp1xLKg6xNTuKCiE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947949544794-fjbvntmg8fpm2nd2splibskir8vujqv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
